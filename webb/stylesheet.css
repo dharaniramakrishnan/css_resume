@@ -1,0 +1,39 @@
+body {
+  font-family: Arial;
+  color: blue;
+  margin: 0; 
+  padding: 0; 
+}
+
+.split {
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-y: auto; 
+}
+
+.split.left {
+  width: 30%; 
+  left: 0;
+  background-color: pink;
+  display: flex;
+  align-items: flex-start; 
+  justify-content: center;
+}
+
+.split.right {
+  width: 70%; 
+  right: 0;
+  background-color: skyblue;
+}
+
+.centered {
+  text-align: center;
+}
+
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+
